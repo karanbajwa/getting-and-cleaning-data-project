@@ -28,5 +28,5 @@ This R script performs the steps below as required by the assignment:
 3. Checking the Result
 Upon running, the `run_analysis.R` will generate the following files in the `output` directory.
   
-  - `final_tidy_dataset.txt` : Contains the result tidy Dataset
+  - `final_tidy_dataset.txt` : Contains the result tidy dataset
   - `final_tidy_dataset.txt` : Same result dataset published as CSV. This file when viewed in github, shows in a nice table. 
