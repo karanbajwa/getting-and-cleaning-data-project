@@ -25,7 +25,7 @@ This R script performs the steps below as required by the assignment:
   - Set the working directory to this file
   - Source all the code.
 
-3. Checking the Result
+## Checking the Result
 Upon running, the `run_analysis.R` will generate the following files in the `output` directory.
   
   - `final_tidy_dataset.txt` : Contains the result tidy dataset
