@@ -38,12 +38,12 @@
 
 # 5.1) Creates an intermediate dataset with all required measurements.
 
-    whole_dataset <- cbind(subject_merged, y_merged, X_filtered_dataset)
+    full_dataset <- cbind(subject_merged, y_merged, X_filtered_dataset)
 
 # 5.2) Creates the independent tidy data set with the average of each variable for each activity and each subject.
 
-    measurements <- whole_dataset[, 3:dim(whole_dataset)[2]]
-    tidy_dataset <- aggregate(measurements, list(whole_dataset$subject, whole_dataset$activity), mean)
+    measurements <- full_dataset[, 3:dim(full_dataset)[2]]
+    tidy_dataset <- aggregate(measurements, list(full_dataset$subject, full_dataset$activity), mean)
     names(tidy_dataset)[1:2] <- c('subject', 'activity')
 
 # 5.3 Write the tidy dataset to a txt and csv file          
